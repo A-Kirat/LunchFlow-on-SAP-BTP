@@ -1,0 +1,24 @@
+{
+  "sap.app": {
+    "id": "lunch.specials",
+    "title": "Lunch Specials"
+  },
+  "sap.ui5": {
+    "models": {
+      "": {
+        "dataSource": "mainService"
+      }
+    },
+    "dataSources": {
+      "mainService": {
+        "uri": "/lunch/LunchService/",
+        "type": "OData",
+        "settings": { "odataVersion": "v4" }
+      }
+    },
+    "rootView": {
+      "viewName": "LunchSpecials",
+      "type": "XML"
+    }
+  }
+}

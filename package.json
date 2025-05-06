@@ -1,0 +1,15 @@
+{
+  "name": "lunch-specials",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "cds run",
+    "serve-ui": "ui5 serve --open index.html"
+  },
+  "dependencies": {
+    "@sap/cds": "^6",
+    "@sap/cds-odata-v4": "^2"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^3"
+  }
+}

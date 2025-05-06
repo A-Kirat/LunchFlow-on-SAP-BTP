@@ -1,0 +1,12 @@
+{
+  "requires": {
+    "db": {
+      "kind": "sqlite",
+      "model": ["data-model.cds"],
+      "credentials": { "database": "lunch.db" }
+    },
+    "srv": {
+      "model": ["srv.cds"]
+    }
+  }
+}
